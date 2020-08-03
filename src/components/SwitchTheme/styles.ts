@@ -4,7 +4,8 @@ export const Button = styled.button`
     background-color: ${({theme}) => theme.switchButton};
     border: none;
     border-radius: 0.5rem;
-    width: 5rem;
+    width: 7rem;
+    height: 4rem;
     font-size: 1.5rem;
     transition: .2s;
     color: ${({theme}) => theme.switchText};
